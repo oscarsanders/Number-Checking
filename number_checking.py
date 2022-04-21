@@ -1,21 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 #This program check if a number is even,
 # odd, prime and palindromic
 
-
-# In[35]:
-
-
 n = int(input("Write an integer number to check:\n"))
-
-
-# In[36]:
-
 
 def even_odd(m):
     if n%2 == 0:
@@ -25,17 +14,10 @@ def even_odd(m):
         
 even_odd(n)
 
-
-# In[37]:
-
-
 n_string = str(n)
 n_rev = n_string[::-1]
 if n_string == n_rev:
     print("The number is palindromic \n")
-
-
-# In[38]:
 
 
 # A school method based Python3 program
@@ -63,10 +45,3 @@ if isPrime(n):
 # else:
 #     print("false")
 # This code is contributed by Sachin Bisht
-
-
-# In[ ]:
-
-
-
-
